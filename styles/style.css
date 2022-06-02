@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /*
 Colors:
 
@@ -6,3 +12,100 @@ Green: #00B172
 White: #FFF
 
 */
+
+.navigation {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+}
+
+.nav-logo {
+    height: 50px;
+}
+
+.nav-link {
+    font-weight: 900;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.hero-pic {
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.intro-text {
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+
+.hero-head {
+    font-size: 3rem;
+}
+
+.hero-intro {
+    font-size: 1rem;
+}
+
+.feature-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-head {
+    text-align: center;
+    color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.feature-item {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.feature-icon {
+    height: 80px;
+}
+
+.feature-name {
+    color: green;
+}
+
+.details {
+    background-color: #1BB16A;
+    padding: 3rem;
+}
+
+.detail-head {
+    color: white;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.feature-describe {
+    color: white;
+}
+
+.app-icon {
+    height: 200px;
+}
+
+.app-mockup {
+    height: 550px;
+}
+
+.flex-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-items p {
+    max-width: 20px;
+}
