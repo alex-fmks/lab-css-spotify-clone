@@ -15,11 +15,12 @@ White: #FFF
 
 .navigation {
     display: flex;
-    padding: 1rem;
     justify-content: space-between;
     align-items: center;
     background-color: white;
     position: fixed;
+    width: 100vw;    
+    padding: 1rem;
 }
 
 .nav-logo {
@@ -93,6 +94,10 @@ White: #FFF
     color: white;
 }
 
+.feature-section > * {
+    flex: 1;
+}
+
 .app-icon {
     height: 200px;
 }
@@ -104,8 +109,34 @@ White: #FFF
 .flex-items {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+.flex-items > * {
+    flex: 1;
 }
 
 .flex-items p {
-    max-width: 20px;
+    max-width: 80%;
+}
+
+.hero {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.hero p, .hero h1 {
+    position: absolute;
+    top: 50%;
+}
+
+.container-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.mockup-align {
+    display: flex;
+    justify-content: flex-end;
 }
